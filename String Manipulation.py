@@ -1,0 +1,32 @@
+s=input("Enter a string")
+a=s[::-1]
+print("The string reversed is : ")
+print(a)
+a=s.upper()
+print("The string in upper case is : ")
+print(a)
+a=s.lower()
+print("The string in lower case is : ")
+print(a)
+a=s.title()
+print("The string made as title is : ")
+print(a)
+a=s[0:]
+print("The string sliced is : ")
+print(a)
+a="python"
+print("Implementing in and not in operators: ")
+b='t' in a
+print(b)
+b='y' not in a
+print(b)
+b=a.isalpha()
+print(b)
+b=a.isalnum()
+print(b)
+print("The string can be justified as follows : ")
+print(a.ljust(3,"$"))
+b=a.rjust(3,"$")
+print(b)
+b=a.center(3,"$")
+print(b)
