@@ -1,4 +1,4 @@
-print("Printing alphabet A ")
+print("Printing alphabet B ")
 for i in range(5):
     print("\n")
     for j in range(7):
