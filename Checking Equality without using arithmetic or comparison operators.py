@@ -1,0 +1,5 @@
+a=int(input("Enter the first number : "))
+b=int(input("Enter the second number : "))
+c=a.__eq__(b)
+print("Are the two numbers entered equal ? (true/false)")
+print(c)
