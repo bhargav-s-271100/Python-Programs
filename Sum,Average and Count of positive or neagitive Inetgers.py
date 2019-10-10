@@ -13,3 +13,4 @@ while(a!=999):
     a = int(input("enter the number or enter 999 to exit : "))
 avg=float(sum/i)
 print("sum = ",sum," average = ",avg)
+print("Positive Number Count = ",pos," Negative Number Count = ",neg)
