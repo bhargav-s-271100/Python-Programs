@@ -9,7 +9,7 @@ print("The options are : ")
 for i in range(0,3):
     print(i+1,") ",a[i])
 initial=datetime.today()
-final=initial+timedelta(hours=0.0167)
+final=initial+timedelta(minutes=1)
 A1=input("Enter ur answer : ")
 if(final>datetime.today()):
    if A1=='Python':
@@ -24,7 +24,7 @@ print("The options are : ")
 for i in range(0,3):
     print(i+1,") ",b[i])
 initial=datetime.today()
-final=initial+timedelta(hours=0.0167)
+final=initial+timedelta(minutes=1)
 A2=input("Enter ur answer : ")
 if(final>datetime.today()):
    if A2=='char':
